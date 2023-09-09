@@ -19,3 +19,8 @@ body {
   left: 5%; 
   transform:translate(-50%, 25%);
 }
+
+.written,
+.bi-list {
+  margin: 5px;
+}
