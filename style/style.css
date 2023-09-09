@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#sidebar-menu {
+  background-color: darkslategray;
+  height: 630px;
+  width: 250px;
+}
