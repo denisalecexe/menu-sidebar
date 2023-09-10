@@ -27,14 +27,14 @@ body {
 }
 
 .bi-list:hover {
-  scale: 1.18;
+  scale: 1.20;
   cursor: pointer;
 }
 
 .body-menu {
-  position: absolute;
+  position: fixed;
   top: 0;
-  left: 5%; 
+  left: 8%; 
   transform: translate(-50%, 30%);
 }
 
@@ -44,7 +44,6 @@ body {
   list-style-type: none;
   cursor: default;
   color: white;
-  margin: 10px;
 }
 
 .theme {
@@ -52,22 +51,22 @@ body {
 }
 
 .settings {
-
+  
 }
 
 .buttons li {
-  padding: 5px 20px;
+  padding: 5px 35px;
   text-align: center;
   border: 1px solid white;
   border-radius: 30px;
-  transform: translate(30px, 300px);
+  transform: translate(5px, 200px);
 }
 
 li {
-  margin: 5px;
+  margin: 20px;
 }
 
 li:hover {
-  scale: 1.04;
+  scale: 0.99;
   cursor: pointer;
 }
