@@ -23,20 +23,31 @@ body {
 .written,
 .bi-list {
   margin: 5px;
+  cursor: default;
+}
+
+.bi-list:hover {
+  scale: 1.18;
 }
 
 .body-menu {
   position: absolute;
   top: 0;
   left: 5%; 
-  transform:translate(-50%, 45%);
+  transform: translate(-50%, 30%);
 }
 
 ul {
   list-style-type: none;
   color: peru;
+  cursor: default;
 }
 
 li {
   margin: 10px;
+}
+
+li:hover {
+  scale: 1.04;
+  cursor: pointer;
 }
