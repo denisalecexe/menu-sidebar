@@ -25,3 +25,18 @@ body {
   margin: 5px;
 }
 
+.body-menu {
+  position: absolute;
+  top: 0;
+  left: 5%; 
+  transform:translate(-50%, 45%);
+}
+
+ul {
+  list-style-type: none;
+  color: peru;
+}
+
+li {
+  margin: 10px;
+}
