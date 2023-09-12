@@ -38,35 +38,30 @@ body {
   transform: translate(-50%, 30%);
 }
 
-.theme ul,
-.settings ul,
-.buttons ul {
+ul {
   list-style-type: none;
   cursor: default;
   color: white;
 }
 
-.theme {
-
-}
-
-.settings {
-  
-}
-
-.buttons li {
-  padding: 5px 35px;
-  text-align: center;
+#item-5,
+#item-6 {
+  margin: 5px;
+  padding: 8px 15px;
   border: 1px solid white;
-  border-radius: 30px;
-  transform: translate(5px, 200px);
+  border-radius: 22px;
 }
 
-li {
-  margin: 20px;
+#item-5 {
+  transform: translate(-60px, 320px);
 }
 
-li:hover {
-  scale: 0.99;
-  cursor: pointer;
+#item-6 {
+  transform: translate(60px, 273px);
+}
+
+#item-5:hover,
+#item-6:hover {
+  scale: 1.01;
+  border: 1px dotted white;
 }
