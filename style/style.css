@@ -7,7 +7,7 @@ body {
 #sidebar-menu {
   background-color: black;
   height: 630px;
-  width: 250px;
+  width: 260px;
 }
 
 .header-menu {
@@ -46,22 +46,23 @@ ul {
 
 #item-5,
 #item-6 {
-  margin: 5px;
   padding: 8px 15px;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 22px;
 }
 
 #item-5 {
-  transform: translate(-60px, 320px);
+  transform: translate(-60px, 360px);
 }
 
 #item-6 {
-  transform: translate(60px, 273px);
+  transform: translate(60px, 315px);
 }
 
 #item-5:hover,
 #item-6:hover {
-  scale: 1.01;
-  border: 1px dotted white;
+  color: deeppink;
+  cursor: pointer;
+  scale: 0.99;
+  border: 2px dotted;
 }
