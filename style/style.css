@@ -44,25 +44,38 @@ ul {
   color: white;
 }
 
+#item-1 {
+margin: 10px;
+}
+
+#item-2,
+#item-3,
+#item-4 {
+  margin: 10px;
+}
+
+.buttons {
+  transform: translate(0, 340px);
+}
+
+.buttons ul{
+  display: flex;
+  flex-direction: row;
+}
+
 #item-5,
 #item-6 {
+  margin: 5px;
   padding: 8px 15px;
   border: 2px solid white;
   border-radius: 22px;
 }
 
-#item-5 {
-  transform: translate(-60px, 360px);
-}
-
-#item-6 {
-  transform: translate(60px, 315px);
-}
 
 #item-5:hover,
 #item-6:hover {
   color: deeppink;
   cursor: pointer;
-  scale: 0.99;
-  border: 2px dotted;
+  scale: 1.10;
+  border: 2px dotted deeppink;
 }
