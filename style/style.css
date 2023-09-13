@@ -35,7 +35,7 @@ body {
   position: fixed;
   top: 0;
   left: 8%; 
-  transform: translate(-50%, 30%);
+  transform: translate(-100%, 30%);
 }
 
 ul {
@@ -44,28 +44,8 @@ ul {
   color: white;
 }
 
-#item-1 {
-  margin: 10px;
-}
-
-.settings {
-  transform: translate(0, 50px);
-}
-
-.settings ul {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
-#item-2,
-#item-3,
-#item-4 {
-  margin: ;
-}
-
-.buttons {
-  transform: translate(0, 290px);
+.footer-menu {
+  transform: translate(-10px, 530px);
 }
 
 .buttons ul{
@@ -73,17 +53,17 @@ ul {
   flex-direction: row;
 }
 
-#item-5,
-#item-6 {
-  margin: 5px;
-  padding: 8px 15px;
+#item-7,
+#item-8 {
+  margin: 8px;
+  padding: 8px 10px;
   border: 2px solid white;
-  border-radius: 22px;
+  border-radius: 50px;
 }
 
 
-#item-5:hover,
-#item-6:hover {
+#item-7:hover,
+#item-8:hover {
   color: deeppink;
   cursor: pointer;
   scale: 1.10;
