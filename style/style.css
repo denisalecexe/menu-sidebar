@@ -45,17 +45,27 @@ ul {
 }
 
 #item-1 {
-margin: 10px;
+  margin: 10px;
+}
+
+.settings {
+  transform: translate(0, 50px);
+}
+
+.settings ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 #item-2,
 #item-3,
 #item-4 {
-  margin: 10px;
+  margin: ;
 }
 
 .buttons {
-  transform: translate(0, 340px);
+  transform: translate(0, 290px);
 }
 
 .buttons ul{
