@@ -13,7 +13,7 @@ body {
 .header-menu {
   display: flex;
   flex-direction: row;
-  color: deeppink;
+  color: royalblue;
   position: absolute;
   top: 0;
   left: 5%; 
@@ -64,8 +64,8 @@ ul {
 
 #item-7:hover,
 #item-8:hover {
-  color: deeppink;
+  color: royalblue;
   cursor: pointer;
   scale: 1.10;
-  border: 2px dotted deeppink;
+  border: 2px dotted royalblue;
 }
