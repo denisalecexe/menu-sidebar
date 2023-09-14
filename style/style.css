@@ -16,8 +16,8 @@ body {
 #sidebar-menu {
   background-color: black;
   height: 100%;
-  width: 200px;
-  position: absolute;
+  width: 240px;
+  position: fixed;
   top: 0;
   left: 0;
   overflow: hidden;
@@ -55,14 +55,14 @@ ul {
 }
 
 .footer-menu {
-  transform: translate(-20px, 500px);
+  transform: translate(-20px, 460px);
 }
 
 #item-7,
 #item-8 {
   color: royalblue;
   margin: 10px;
-  padding: 8px 14px;
+  padding: 8px;
   border: 2px solid royalblue;
   border-radius: 50px;
 }
@@ -75,11 +75,16 @@ ul {
   border: 2px dotted white;
 }
 
+.bi-globe,
+.bi-chat-left-dots {
+  margin: 2px 15px;
+}
+
 #move-page {
   position: relative;
   top: 0;
-  left: 200px;
-  width: calc(100% - 200px);
+  left: 250px;
+  width: calc(100% - 250px);
   height: 100%;
 }
 
