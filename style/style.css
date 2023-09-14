@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .container-fluid {
@@ -10,22 +10,24 @@ body {
   margin: 0;
   padding: 0;
   transform: translate(-12px, 0);
+  position: relative;
 }
 
 #sidebar-menu {
   background-color: black;
-  height: 630px;
-  width: 290px;
+  height: 100%;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
 }
 
 .header-menu {
   display: flex;
   flex-direction: row;
   color: royalblue;
-  position: absolute;
-  top: 0;
-  left: 5%; 
-  transform:translate(-50%, 25%);
+  transform:translate(5%, 20%);
 }
 
 .written,
@@ -53,12 +55,7 @@ ul {
 }
 
 .footer-menu {
-  transform: translate(-20px, 560px);
-}
-
-.buttons ul{
-  display: flex;
-  flex-direction: row;
+  transform: translate(-20px, 500px);
 }
 
 #item-7,
@@ -76,6 +73,14 @@ ul {
   cursor: pointer;
   scale: 1.10;
   border: 2px dotted white;
+}
+
+#move-page {
+  position: relative;
+  top: 0;
+  left: 200px;
+  width: calc(100% - 200px);
+  height: 100%;
 }
 
 #card-fluid {
