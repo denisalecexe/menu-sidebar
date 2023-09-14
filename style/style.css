@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .container-fluid {
@@ -70,11 +70,20 @@ ul {
   border-radius: 50px;
 }
 
-
 #item-7:hover,
 #item-8:hover {
   color: white;
   cursor: pointer;
   scale: 1.10;
   border: 2px dotted white;
+}
+
+#move-page {
+
+}
+
+#card-fluid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
