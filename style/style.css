@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .container-fluid {
@@ -76,10 +76,6 @@ ul {
   cursor: pointer;
   scale: 1.10;
   border: 2px dotted white;
-}
-
-#move-page {
-
 }
 
 #card-fluid {
