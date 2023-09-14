@@ -55,17 +55,18 @@ ul {
 
 #item-7,
 #item-8 {
+  color: royalblue;
   margin: 8px;
   padding: 8px 10px;
-  border: 2px solid white;
+  border: 2px solid royalblue;
   border-radius: 50px;
 }
 
 
 #item-7:hover,
 #item-8:hover {
-  color: royalblue;
+  color: white;
   cursor: pointer;
   scale: 1.10;
-  border: 2px dotted royalblue;
+  border: 2px dotted white;
 }
